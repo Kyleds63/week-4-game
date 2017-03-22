@@ -1,0 +1,185 @@
+/* General CSS*/
+body{
+  font-family:;
+  color: black;
+  width:100vw;
+  height:100vh;
+  background-image: url("../images/x-wing.jpg")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*--------------------------------------------// 
+//                                            //
+//          Element Styling(By Sections)      //
+//                                            //
+//--------------------------------------------*/
+
+
+/*-------------------Header-------------------*/
+h1{
+  padding-left: 70vw;
+  display:     block;
+  font-size:   2.5em;
+  margin-top:    2vh;
+  margin-bottom: 2vh;
+  text-align: middle;
+}
+
+/*---------------- Characters-----------------*/
+.characters{
+  margin-left:   5vw;
+  max-width:    60vw;
+  max-height:   30vh;
+  display:     block;
+  overflow:   hidden;
+  text-align: center;
+  
+}
+.characters img{
+	max-width: 80%;
+	height:   auto;
+	display: block;
+	margin:   auto;
+	background:  white;
+}
+#obi{
+	max-width:   25%;
+	max-height: 100%;
+	display:   block;
+	margin:     auto;
+	float:      left;
+	border: 3px solid green;
+	background:  white;
+	overflow:hidden;
+} 
+#luke{
+	max-width:   25%;
+	max-height: 100%;
+	display:   block;
+	margin:     auto;
+	float:      left;
+	border: 3px solid green;
+	background:  white;
+
+}
+#sidious{
+	max-width:   25%;
+	max-height: 100%;
+	display:   block;
+	margin:     auto;
+	float:      left;
+	border: 3px solid green;
+	background:  white;
+}
+#maul{
+	max-width:   25%;
+	max-height: 100%;
+	display:   block;
+	margin:     auto;
+	float:      left;
+	border: 3px solid green;
+	background: white;
+}
+
+#movedCharacter{
+	max-width:10%;
+	max-height: 50%;
+	float: none;
+	overflow: hidden;
+
+}
+
+
+/*------------------Options-------------------*/
+h3{
+	font-weight: 100;
+}
+.options{
+	display:block;
+	margin-left: 10px;
+	max-height: 80vh;
+	overflow: hidden;
+}
+
+#your-character{
+	
+	font-size: 2em;
+	max-width: 60vw;
+	max-height: 180px;
+	min-height:180px;
+	font-weight: 100;
+	border: 2px solid green;
+	overflow: hidden;
+	
+}
+
+#enemies{
+	display:block;
+	min-width:100%;
+	max-height: 180px;
+	min-height:180px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-size:1.75em;
+	
+}
+#fight{
+	display:block;
+	min-width:100%;
+	max-height: 40px;
+	min-height:40px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-size:1.75em;
+}
+#button{
+	display:block;
+	min-width:100%;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-size: 1.75em;
+}
+#defender{
+	display:block;
+	min-width:100%;
+	max-height: 180px;
+	min-height:180px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-size: 1.75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
